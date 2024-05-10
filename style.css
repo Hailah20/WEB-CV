@@ -99,10 +99,10 @@ body
 }
 .contactInfo ul li .icon
 {
+    display: inline-block;
     width: 30px;
     font-size: 18px;
     color: #6C4B39;
-    margin-right: 10px;
 }
 .contactInfo ul li span
 {
