@@ -4,12 +4,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Poppins', sans-serif;
-
 }
 body
 {
     background: #F4F0EC;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +18,20 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 1035px;
-    min-height: 1000px;
+    max-width: 90px;
+    min-height: 800px;
     background: #fff;
-    margin:50px;
+    margin:30px;
     display: grid;
-    grid-template-columns: 1fr 2fr ;
-    box-shadow: 0 35px 55px #6C4B39;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    box-shadow: 0 15px 25px #6C4B39;
 }
 .container .left_Side
 {
     position: relative;
     background: #D8D1CA;
-    padding: 40px;
+    padding: 100px;
 }
 .profileText
 {
@@ -39,15 +39,16 @@ body
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #6C4B39;
+    border-bottom: 2px solid #6C4B39;
+    padding: 50px 30px;
 }
 .profileText .imgBx
 {
     position:relative;
-    width: 200px;
-    height:200px;
+    width: 150px;
+    height:180px;
     overflow:hidden;
+    justify-content: center
 }
 .profileText .imgBx img
 {
@@ -93,14 +94,15 @@ body
 {
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 8px 0;
     cursor: pointer;
     text-decoration: none;
 }
 .contactInfo ul li .icon
 {
     display: inline-block;
-    width: 30px;
+    height: 4px;
+    width: 50px;
     font-size: 18px;
     color: #6C4B39;
 }
@@ -165,11 +167,11 @@ body
 {
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 20px;
 }
 .about 
 {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .about:last-child
 {
@@ -189,7 +191,7 @@ p
 }
 .Certificatations 
 {
-    margin-bottom: 50px;
+    margin-bottom: 8px;
 }
 .certificates-list 
 {
@@ -217,6 +219,7 @@ p
 }
 .project-list 
 {
+    margin-bottom: 10px;
     list-style-type: disc; 
     color:#6C4B39;
     padding: 0;
@@ -245,7 +248,7 @@ p
     position: relative;
     width: 100%;
     display:grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 120px 1fr;
     justify-content: center;
     align-items: center;
 }
@@ -254,6 +257,7 @@ p
     text-transform: uppercase;
     color: #000000;
     font-weight: 500;
+    font-size: 0.9em;
 }
 .skills .box .percent
 {
