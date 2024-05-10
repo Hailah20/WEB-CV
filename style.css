@@ -19,10 +19,10 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 10040px;
+    max-width: 10000px;
     min-height: 1000px;
     background: #fff;
-    margin:50px;
+    margin:70px;
     display: grid;
     grid-template-columns: 1fr 2fr ;
     box-shadow: 0 35px 55px #6C4B39;
@@ -31,7 +31,7 @@ body
 {
     position: relative;
     background: #D8D1CA;
-    padding: 40px;
+    padding: 100px;
 }
 .profileText
 {
@@ -39,8 +39,8 @@ body
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #6C4B39;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #6C4B39;
 }
 .profileText .imgBx
 {
