@@ -24,7 +24,7 @@ body
     margin:50px;
     display: grid;
     grid-template-columns: 1fr 2fr ;
-    box-shadow: 0 35px 55px #6C4B39;
+    box-shadow: 0 35px 55px #6c4b399e;
 }
 .container .left_Side
 {
